@@ -1,7 +1,7 @@
 // JavaScript Document
 //Chức năng sao chép lệnh vào clipboard
 function copypowershell(){
-	const textcp = "irm https://hello.com | iex";
+	const textcp = "irm https://get.activated.win | iex";
 	navigator.clipboard.writeText(textcp).then(function(){
 		alert("Đã sao chép!","Thông báo");
 	}).catch(function(error){
